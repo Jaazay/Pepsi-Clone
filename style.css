@@ -1,0 +1,322 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#0065c3;
+    padding: 10px;
+    height: 70px;
+    position: fixed;
+    width: 99%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+ .nav-item{
+    padding: 5px 15px;
+    color: white;
+    cursor: pointer;
+    font-family: Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.logo{
+    transition: transform 0.5s;
+}
+.nav-item:hover.logo {
+    transform: rotate(360deg);
+}
+.nav-item.right{
+    margin-left: auto;
+    border-radius: 20px;
+    border: 2px solid;
+    background-color: #0065c3;
+}
+.nav-item.right:hover{
+    background-color: white;
+    color: #0065c3;
+}
+
+
+.section1{
+    width: 100%;
+    height: 750px;
+    background-image: url(./background.png);
+    background-size: cover;
+    background-position: center;
+    background-color: blue;
+    display: flex;
+}
+.bottles{
+    position: relative;
+    width: 50%;
+}
+.bottles img{
+    height: 600px;
+    width: 800px;
+    position: absolute;
+    bottom: 0px;
+    left: -120px;
+}
+.appleMusic{
+    width: 50%;
+    position: relative;
+}
+.appleMusic img{
+    position: absolute;
+    top: 180px;
+    width: 500px;
+}
+.firstAnchor{
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 1em;
+    padding: 0.5em 2em;
+    color: white;
+    background-color: transparent;
+    font-family: Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    position: absolute;
+    bottom: 150px;
+    left: 180px;
+    text-decoration: none;
+}
+.firstAnchor:hover{
+    color: #0065c3;
+    background-color: white;
+}
+p{
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    color: white;
+    font-family: Sofia Pro Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: .7rem;
+    width: 81.282vw;
+    max-width: 422px;
+}
+
+
+.section2{
+    width: 100%;
+    height: 750px;
+    background-color: black;
+    background-image: url(./pzs-can-nobug-tablet@2x.png);
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position: bottom left;
+    position: relative;
+}
+.blackPepsi{
+    position: absolute;
+    left: 500px;
+    top: 135px;
+}
+.headline{
+    position: absolute;
+    left: 780px;
+    top: 180px;
+    height: 280px;
+}
+.logoLine{
+    position: absolute;
+    height: 28px;
+    right: 130px;
+    bottom: 230px;
+}
+
+
+.section3{
+    width: 100%;
+    height: 750px;
+    background-image: url(./background2.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.nitroCan{
+    position: absolute;
+    bottom: 0;
+    left: 250px;
+    height: 650px;
+}
+.nitroLogo{
+    position: absolute;
+    height: 290px;
+    right: 120px;
+    top: 250px;
+}
+h3{
+    color: white;
+    font-family: Cervo Neue Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    margin: 0;
+    position: absolute;
+    bottom: 180px;
+    right: 210px;
+}
+.secondAnchor{
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 1em;
+    padding: 0.5em 2em;
+    color: white;
+    background-color: transparent;
+    font-family: Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    position: absolute;
+    bottom: 145px;
+    left: 910px;
+    text-decoration: none;
+}
+.secondAnchor:hover{
+    color: #0065c3;
+    background-color: white;
+}
+
+.section4{
+    width: 100%;
+    height: 750px;
+    background-color: #265cc5;
+    display: flex;
+}
+.container1{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.image1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.caption1{
+    background-color: #1437bf;
+    color: white;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    line-height: 15px;
+    font-size: 14px;
+    margin-top: -4px;
+}
+.image2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.caption2{
+    background-color: #1437bf;
+    color: white;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    line-height: 15px;
+    font-size: 14px;
+    margin-top: -4px;
+}
+.container2{
+    width: 65%;
+    position: relative;
+}
+.burgerimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tagimg{
+    width: 55%;
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+}
+
+
+.section5{
+    width: 100%;
+    height: 750px;
+    background-color: #084a88;
+    position: relative;
+}
+.bg1{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.bg2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+.headline2{
+    position: absolute;
+    height: 300px;
+    left: 20px;
+    top: 120px;
+}
+.bottomtag{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 30%;
+}
+
+
+.section6{
+    width: 100%;
+    height: 750px;
+    background-color: #004ca7;
+    position: relative;
+}
+.bluecan{
+    position: absolute;
+    bottom: 0;
+    height: 92%;
+}
+.twilheader{
+    position: absolute;
+    height: 40%;
+    right: 100px;
+    top: 200px;
+}
+
+
+.section7{
+    width: 100%;
+    height: 310px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-family: Cervo Neue Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+    color: #0065c3;
+    text-align: center;
+}
+.horizontaldivs{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    margin: 0;
+    width: 250px;
+    height: 250px;
+}
